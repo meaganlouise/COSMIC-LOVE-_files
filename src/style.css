@@ -1,0 +1,129 @@
+body {
+  background: linear-gradient(#ffd5cd, #f4c9c1);
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-style: normal;
+  color: #281749;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-style: normal;
+  padding: 0;
+  color: #5329a7;
+  margin: 0 0 40px 0;
+}
+
+p {
+  font-family: "Advent Pro";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  transition: 200ms ease-in-out;
+  font-size: 18px;
+}
+
+p2 {
+  display: block;
+  text-align: center;
+  font-family: "Advent Pro";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  padding: 50px 0 10px 0;
+  color: #5329a7;
+  margin: 0 0 40px 0;
+}
+
+p3 {
+  font-family: "Advent Pro";
+  font-weight: 300;
+  font-style: normal;
+  display: block;
+  line-height: 1.5;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  transition: 200ms ease-in-out;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: 500;
+}
+
+p:hover {
+  background: #b9a8db;
+  border-radius: 30px;
+  font-weight: 400;
+}
+p3:hover {
+  background: #efbbcf;
+  border-radius: 20px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  color: #b9a8db;
+  background: #281749;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  transition: 200ms ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #b9a8db;
+  color: #281749;
+}
+
+.starSigns {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 20px;
+}
+
+.dailyHoro {
+  font-family: "Pacifico";
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 20px;
+  transition: 200ms ease-in-out;
+  padding: 20px;
+}
+
+.dailyHoro:hover {
+  text-decoration: underline;
+  background: #b9a8db;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
